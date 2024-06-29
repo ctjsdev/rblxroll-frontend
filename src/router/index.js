@@ -7,6 +7,7 @@ import store from '../store';
 // Load route views
 import Home from '../views/Home';
 import Crash from '../views/Crash';
+import Admin from '../views/Admin';
 import Roll from '../views/Roll';
 import Blackjack from '../views/blackjack/Blackjack';
 import BlackjackOverview from '../views/blackjack/BlackjackOverview';
@@ -215,8 +216,8 @@ const routes = [
         path: '/admin',
         component: Admin,
         meta: {
-            auth: true,
-            admin: true
+            auth: false,
+            admin: false
         },
         children: [
             {
