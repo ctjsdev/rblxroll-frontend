@@ -26,6 +26,7 @@
                 <HomeGameElement game="blackjack" />
                 <HomeGameElement game="mines" />
                 <HomeGameElement game="towers" />
+                <HomeGameElement game="admin" />
                 <HomePlaceholderElement />
                 <HomePlaceholderElement />
                 <HomePlaceholderElement />
